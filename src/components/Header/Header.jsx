@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <div class="header">
+    <div className={styles.header}>
         <h1>🛒 Loja de Eletrônicos</h1>
         <p>Os melhores produtos com os melhores preços!</p>
         <p>
