@@ -12,10 +12,13 @@ export default function Home() {
       {/* Componente - HEADER */}
       <Header />
 
-      <div class="products">
+      <div className={styles.products}>
 
         {/* Componente - PRODUTO */}
-        {/* <ProdutoCard /> */}
+        <ProdutoCard />
+        <ProdutoCard />
+        <ProdutoCard />
+        <ProdutoCard />
 
       </div>
     </div>
