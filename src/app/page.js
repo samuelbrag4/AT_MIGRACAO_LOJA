@@ -1,16 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Header from "@/components/Header/Header";
 
 export default function Home() {
   return (
     <div>
-      <div class="header">
-        <h1>🛒 Loja de Eletrônicos</h1>
-        <p>Os melhores produtos com os melhores preços!</p>
-        <p>
-          📊 Total de produtos: <span id="totalProducts">0</span>
-        </p>
-      </div>
+
+      {/* Componente - HEADER */}
+      <Header />
 
       <div class="products">
         {/* PRODUTO 1 - SMARTPHONE  */}
