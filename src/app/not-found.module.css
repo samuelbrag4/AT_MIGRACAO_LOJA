@@ -1,0 +1,55 @@
+
+.notFoundContainer {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  color: #222;
+  padding: 32px 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px 0 #0001;
+}
+
+.hgroup {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+  color: #e63946;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin: 0 0 8px 0;
+}
+
+.message {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0;
+}
+
+.info {
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.button {
+  background: #457b9d;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.button:hover {
+  background: #1d3557;
+}
