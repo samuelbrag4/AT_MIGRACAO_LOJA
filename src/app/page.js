@@ -3,6 +3,7 @@
 import { useState, useEffect, use } from "react";
 import styles from "./page.module.css";
 import ProdutoCard from "@/components/ProductCard/ProductCard";
+import { productsData } from "@/data/products.js";
 
 export default function Home() {
 
@@ -10,19 +11,10 @@ export default function Home() {
   const [totalProducts, setTotalProducts] = useState(0);
 
   useEffect(() => {
-    setTimeout(() => {
-      const fakeProducts = [
-        
-
-        // ...MAISSSSSSSSS...JA PONHO
-      ];
-      setProducts(fakeProducts);
-      setTotalProducts(fakeProducts.length);
-    }, 1000);
+    setProducts(productsData);
   }, []);
 
   return (
-    <div>
       <div className={styles.products}>
 
         {/* Componente - PRODUTO */}
@@ -40,6 +32,5 @@ export default function Home() {
         ))}
 
       </div>
-    </div>
   );
 }
